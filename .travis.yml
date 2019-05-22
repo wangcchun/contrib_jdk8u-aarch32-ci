@@ -36,12 +36,12 @@ deploy:
   provider: releases
   skip_cleanup: true
   api_key:
-    secure: V0EztJazagjkhOq89JyFX63/wx8tHtq906lcUcmHc/xeTtNzvT9OOg9pD4fsBjEPFYRExtA2hBtvc5KLqn0I+WDfxxOktKcacwlaE86wGOjByd02+pu+MyEFM5VHSthE63YO5I1qwQ1bKAzO1/afUm9+5+iICog2BzxdNwNXQRiFah3GE+wyBuzB5p+wFtu24CpuFinOepomUWI7k7Mn7o1aS099TBa7u7dJKU8FeOUDFT0mWXNXX7opaQHqS9YfbZUoROj6wHiTRUCeeK6KoHbwg4qmZ5F/unTND0OmOPrc6rvKRkMiAzezmeXHtLoQCyKYEPm7JauLU9bm/Vp5zb/caJjH2w7JvKK6ne/+cuUEIbrIj7fWJ4Lay+Wqq2CY4L46BIdTjy8GLG+Q2lJvKHvFF9PMDoMrIsc68FvqS7886YLcKzoJe9rAFNhPM7QvNUXR0z2d4VOyntIUk5LxMx35IBsJo50AtRIXdoLZwcMBtxqCDHycdhSnS/ywaZIqV8WektwBl9EzpZVlauLyrpf3dIIjpUHsBQNbC1uMT3Ij3uq97l/aUxYhG7ztWijKWwBk+YDtfR1wN/PM8RNoWz9o3Ifi1fH8qRh2J4lZW3+YC+/+M5yHBLpxTMNoIbcj+RKhwLSqcsS6v3h4FEl1lQ2yzKIUZYg97I2Dz8gr3q4=
+    secure: 91ce335945aca3c1f5fcfe08f27fcf585ece810a 
   file:
     - ${OJDK_IMAGE}.zip
     - ${OJDK_IMAGE}.zip.sha256
   on:
-    repo: ojdkbuild/contrib_jdk8u-aarch32-ci
+    repo: wangcchun/contrib_jdk8u-aarch32-ci
     tags: true
 
 notifications:
